@@ -1,1 +1,301 @@
-<mxfile host="app.diagrams.net" modified="2022-08-03T16:24:07.884Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.2.2" etag="mE3Rkc2iRvYvi3hhkg_V" type="github"><diagram id="MMQiHNAwI4GDkoz6XYei">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-03T17:28:22.873Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="6a9y2-wYXlDkocyWx1Y3" version="20.2.2" type="github">
+  <diagram id="MMQiHNAwI4GDkoz6XYei" name="第 1 页">
+    <mxGraphModel dx="2234" dy="1246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3_HONoeYM421y4KQFXsI-3" value="Choose Chains" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-4" value="Departure：polygon" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-5" value="Destination：tezos" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="160" as="sourcePoint" />
+            <mxPoint x="230" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-7" value="Connect Wallet" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-9" value="Connect MetaMask" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="60" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="160" as="sourcePoint" />
+            <mxPoint x="430" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-12" value="Traverse all NFT in the wallet&lt;br&gt;and display them on frontend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="220" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-13" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="210" as="sourcePoint" />
+            <mxPoint x="400" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-15" value="enter &lt;br&gt;destination address" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-16" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="140" as="sourcePoint" />
+            <mxPoint x="600" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-17" value="Choose one NFT &lt;br&gt;displayed in frontend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="60" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-21" value="Sending chosen NFT to bridge&#39;s wallet" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="640" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-24" value="Maintain mapping" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="640" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="159.57999999999998" as="sourcePoint" />
+            <mxPoint x="630" y="159.57999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-26" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="130" as="sourcePoint" />
+            <mxPoint x="300" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-27" value="get wallet address A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-28" value="lock the chosen NFT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="640" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-29" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="50" as="sourcePoint" />
+            <mxPoint x="500" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-31" value="get wallet address B in destination chain" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="10" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-35" value="maintain a map of&amp;nbsp; the chosen NFT and the wrapped NFT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="390" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="160" as="sourcePoint" />
+            <mxPoint x="830" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-37" value="Mint NFT&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="840" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-38" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="360" as="sourcePoint" />
+            <mxPoint x="600" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="360" as="sourcePoint" />
+            <mxPoint x="770" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-43" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="360" as="sourcePoint" />
+            <mxPoint x="900" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-44" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="360" as="sourcePoint" />
+            <mxPoint x="630" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="190" as="sourcePoint" />
+            <mxPoint x="700" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-46" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="160" as="sourcePoint" />
+            <mxPoint x="1030" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-47" value="Send NFT to&lt;br&gt;&amp;nbsp;target address" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-48" value="transfer metadata" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="840" y="20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-49" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="70" as="sourcePoint" />
+            <mxPoint x="900" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-51" value="Tezos" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="40" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-52" value="polygon" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="40" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-53" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="3_HONoeYM421y4KQFXsI-51" target="3_HONoeYM421y4KQFXsI-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="130" as="sourcePoint" />
+            <mxPoint x="1090" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-54" value="fa2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="20" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-55" value="ERC-721" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="20" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-57" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1170" y="160" as="sourcePoint" />
+            <mxPoint x="1230" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-59" value="Success" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-62" value="&amp;nbsp;Choose Chains" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-63" value="Departure：tezos" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-64" value="Destination：polygon" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="620" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-65" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="580" as="sourcePoint" />
+            <mxPoint x="230" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-66" value="Connect Wallet" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-67" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="580" as="sourcePoint" />
+            <mxPoint x="430" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-68" value="get address" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="440" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-69" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.52;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="3_HONoeYM421y4KQFXsI-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="480" as="sourcePoint" />
+            <mxPoint x="450" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-70" value="get mapping address from bridge system" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-71" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="3_HONoeYM421y4KQFXsI-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="550" as="sourcePoint" />
+            <mxPoint x="520" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-72" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="550" as="sourcePoint" />
+            <mxPoint x="300" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-73" value="Connect Temple wallet &lt;br&gt;and get address" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="480" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-74" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="630" as="sourcePoint" />
+            <mxPoint x="400" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-75" value="Suppose the NFT chosen to cross from tezos to polygoon had been crossed reversed in the past" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="640" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-76" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="580" as="sourcePoint" />
+            <mxPoint x="630" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-77" value="Burn NFT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="640" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-78" value="burn the NFT chosen&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="640" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-79" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="3_HONoeYM421y4KQFXsI-78">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="630" as="sourcePoint" />
+            <mxPoint x="700" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-80" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="580" as="sourcePoint" />
+            <mxPoint x="830" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-81" value="Unlock NFT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="840" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-83" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.529;entryY=1.082;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="3_HONoeYM421y4KQFXsI-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="550" as="sourcePoint" />
+            <mxPoint x="890" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-84" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="640" as="sourcePoint" />
+            <mxPoint x="900" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-86" value="transfer the mapping NFT in the destination chain and send it to user&#39;s&amp;nbsp; wallet&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="640" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-89" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="580" as="sourcePoint" />
+            <mxPoint x="1030" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-90" value="Success" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-91" value="&lt;h1&gt;To Do&lt;/h1&gt;&lt;p&gt;1. 因為我們必須做到雙向跨鏈，因此必定得學會在 Tezos(fa2) 和 polygon(ERC-721) 鑄造 NFT&lt;/p&gt;&lt;p&gt;2. Bridge System 需要寄送 NFT，因此必須學會在 Tezos 和 polygon 進行 transfer&lt;/p&gt;&lt;p&gt;3. Bridge System 必須要 Burn NFT，因此須了解兩鏈上的燃燒方式&lt;/p&gt;&lt;p&gt;4. 必須了解 Tezos 和 polygon 的 metadata 格式&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="720" width="520" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-92" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Transfer forward&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="280" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-93" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Transfer backward&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="720" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3_HONoeYM421y4KQFXsI-94" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;5. 實作交換雙鏈的 metadata 的功能&lt;br&gt;6. 實作 Bridge System 的 mapping&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="561" y="760" width="400" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
